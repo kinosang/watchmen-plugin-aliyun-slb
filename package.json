@@ -1,22 +1,18 @@
 {
-  "name": "watchmen-plugin-aws-ses",
+  "name": "watchmen-plugin-aliyun-slb",
   "version": "0.0.1",
-  "description": "AWS SES notifications for watchmen",
+  "description": "Aliyun SLB rebuilder for watchmen",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/iloire/watchmen-plugin-aws-ses.git"
+    "url": "git://github.com/kinosang/watchmen-plugin-aliyun-slb.git"
   },
-  "author": "Ivan Loire",
+  "author": "kinosang",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.1.36",
-    "debug": "^2.2.0",
-    "mocha": "^2.2.5",
-    "moment": "^2.10.3",
-    "validator": "^3.40.1"
+    "aliyun-sdk": "^1.9.17"
   }
 }
